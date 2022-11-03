@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.GallopDialog" parent="Theme.AppCompat">
+        <item name="alertDialogStyle">@style/GallopDialog</item>
+        <item name="android:windowAnimationStyle">@style/GallopDialogWindowAnimation</item>
+    </style>
+
+    <style name="GallopDialogWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="GallopDialog" parent="android:Widget">
+        <item name="android:layout">@layout/gallop_dialog</item>
+        <item name="listLayout">@layout/abc_select_dialog_material</item>
+        <item name="listItemLayout">@layout/select_dialog_item_material</item>
+        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
+        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
+        <item name="buttonIconDimen">@dimen/abc_alert_dialog_button_dimen</item>
+        <item name="android:textColor">#794016</item>
+    </style>
+
+    <style name="GallopButton" parent="android:Widget.Material.Button">
+        <item name="buttonType">btn1</item>
+        <item name="android:background">@drawable/btn1</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ThemeOverlay.GallopDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/gallop_dialog_background</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gallop_text_color">#794016</color>
+    <color name="gallop_highlight_color">#ff9900</color>
+    <color name="gallop_warn_color">#ff4400</color>
+    <color name="gallop_good_color">#F16D27</color>
+    <color name="gallop_bad_color">#2E85E6</color>
+    <color name="gallop_disabled_color">#A29FA4</color>
+</resources>
